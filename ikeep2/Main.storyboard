@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="29" translatesAutoresizingMaskIntoConstraints="NO" image="bg-topbar-portrait.png">
+                                <rect key="frame" x="108" y="96" width="160" height="240"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                    <mask key="constraints">
+                                        <include reference="71"/>
+                                    </mask>
+                                </variation>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="0.0" maxY="143"/>
+                                <constraints>
+                                    <constraint id="71" firstAttribute="height" constant="143"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="71"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="39" translatesAutoresizingMaskIntoConstraints="NO" image="logo-ikeep.png">
+                                <rect key="frame" x="29" y="-21" width="160" height="240"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="35" y="40" width="74" height="62"/>
+                                    <mask key="constraints">
+                                        <include reference="61"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="61" firstAttribute="height" constant="62"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="61"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="40" translatesAutoresizingMaskIntoConstraints="NO" text="Patient Report">
+                                <rect key="frame" x="158" y="-8" width="160" height="240"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="0"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="31"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="124" y="50" width="231" height="42"/>
+                                    <mask key="constraints">
+                                        <include reference="64"/>
+                                        <include reference="65"/>
+                                    </mask>
+                                </variation>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <constraints>
+                                    <constraint id="64" firstAttribute="width" constant="231"/>
+                                    <constraint id="65" firstAttribute="height" constant="42"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="64"/>
+                                        <exclude reference="65"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="29"/>
+                                <exclude reference="39"/>
+                                <exclude reference="40"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="59"/>
+                                <exclude reference="60"/>
+                                <exclude reference="62"/>
+                                <exclude reference="63"/>
+                                <exclude reference="66"/>
+                                <exclude reference="69"/>
+                                <exclude reference="70"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="29"/>
+                                <include reference="39"/>
+                                <include reference="40"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="59"/>
+                                <include reference="60"/>
+                                <include reference="62"/>
+                                <include reference="63"/>
+                                <include reference="66"/>
+                                <include reference="69"/>
+                                <include reference="70"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="59" firstItem="39" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40"/>
+                            <constraint id="60" firstItem="39" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35"/>
+                            <constraint id="62" firstItem="40" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50"/>
+                            <constraint id="63" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="40" secondAttribute="trailing" constant="20"/>
+                            <constraint id="66" firstItem="40" firstAttribute="leading" secondItem="39" secondAttribute="trailing" constant="15"/>
+                            <constraint id="69" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="29" secondAttribute="trailing"/>
+                            <constraint id="70" firstItem="29" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="bg-topbar-portrait.png" width="375" height="168"/>
+        <image name="logo-ikeep.png" width="74" height="63"/>
+    </resources>
+</document>
