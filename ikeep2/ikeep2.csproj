@@ -117,6 +117,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\bg-topbar-portrait.png" />
     <BundleResource Include="Resources\logo-ikeep.png" />
+    <BundleResource Include="Resources\bg-signin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
