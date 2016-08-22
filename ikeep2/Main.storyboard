@@ -244,6 +244,16 @@
                                     <constraint id="323" firstItem="189" firstAttribute="height" constant="2"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="332" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="267" width="375" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27" weight="semibold"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="337" firstItem="332" firstAttribute="height" constant="53"/>
+                                </constraints>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint id="59" firstItem="39" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40"/>
@@ -286,6 +296,9 @@
                             <constraint id="319" firstItem="189" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width"/>
                             <constraint id="322" firstItem="189" firstAttribute="leading" secondItem="314" secondAttribute="leading"/>
                             <constraint id="326" firstItem="189" firstAttribute="top" secondItem="176" secondAttribute="bottom"/>
+                            <constraint id="335" firstItem="332" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="247"/>
+                            <constraint id="336" firstItem="332" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width"/>
+                            <constraint id="338" firstItem="332" firstAttribute="leading" secondItem="137" secondAttribute="leading"/>
                         </constraints>
                     </view>
                 </viewController>
