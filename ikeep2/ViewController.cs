@@ -8,7 +8,7 @@ namespace ikeep2
 	{
 		partial void DoSignIn(UIButton sender)
 		{
-			Console.WriteLine("Here am I");
+			Console.WriteLine("Here am 2");
 			//throw new NotImplementedException();
 		}
 
