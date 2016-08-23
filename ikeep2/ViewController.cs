@@ -6,6 +6,12 @@ namespace ikeep2
 {
 	public partial class ViewController : UIViewController
 	{
+		partial void DoSignIn(UIButton sender)
+		{
+			Console.WriteLine("Here am I");
+			//throw new NotImplementedException();
+		}
+
 		protected ViewController(IntPtr handle) : base(handle)
 		{
 			// Note: this .ctor should not contain any initialization logic.

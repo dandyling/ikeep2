@@ -234,6 +234,9 @@
                                 <constraints>
                                     <constraint id="337" firstItem="332" firstAttribute="height" constant="53"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="DoSignIn:" destination="BYZ-38-t0r" id="369" eventType="touchUpInside"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="353" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="0.0" y="440" width="375" height="53"/>
@@ -290,6 +293,9 @@
                             <constraint id="326" firstItem="189" firstAttribute="top" secondItem="353" secondAttribute="bottom"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="SignInButton" destination="332" id="name-outlet-332"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
