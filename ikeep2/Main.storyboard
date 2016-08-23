@@ -214,7 +214,7 @@
                             </label>
                             <view contentMode="scaleToFill" id="314" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="0.0" y="322" width="375" height="345"/>
-                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                             </view>
                             <view contentMode="scaleToFill" id="189" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="0.0" y="376" width="375" height="2"/>
