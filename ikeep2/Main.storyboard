@@ -291,7 +291,7 @@
                             <constraint id="326" firstItem="189" firstAttribute="top" secondItem="353" secondAttribute="bottom"/>
                             <constraint id="388" firstItem="wfy-db-euE" firstAttribute="top" secondItem="314" secondAttribute="bottom"/>
                             <constraint id="394" firstItem="314" firstAttribute="top" secondItem="279" secondAttribute="top" constant="-1"/>
-                            <constraint id="400" firstItem="353" firstAttribute="top" secondItem="279" secondAttribute="top"/>
+                            <constraint id="404" firstItem="353" firstAttribute="top" secondItem="314" secondAttribute="top" constant="1"/>
                         </constraints>
                     </view>
                     <connections>

@@ -9,7 +9,7 @@ namespace ikeep2
 		partial void DoSignIn(UIButton sender)
 		{
 			UIView.BeginAnimations("platformAnimation");
-			UIView.SetAnimationDuration(1.0);
+			UIView.SetAnimationDuration(0.5);
 			platformTop.Constant = -1 + SignInHeight.Constant * 2 + BlueLineHeight.Constant * 3 + 2;
 			View.LayoutIfNeeded();
 
