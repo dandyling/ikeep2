@@ -8,7 +8,8 @@ namespace ikeep2
 	{
 		partial void DoSignIn(UIButton sender)
 		{
-			Console.WriteLine("Here am 2");
+			platformTop.Constant = -1 + SignInHeight.Constant * 2 + BlueLineHeight.Constant * 3 + 2;
+			//this.UpdateViewConstraints();
 			//throw new NotImplementedException();
 		}
 

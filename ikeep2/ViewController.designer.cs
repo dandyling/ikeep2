@@ -16,7 +16,23 @@ namespace ikeep2
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.NSLayoutConstraint BlueLineHeight { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.NSLayoutConstraint platformTop { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.NSLayoutConstraint sign { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton SignInButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.NSLayoutConstraint SignInHeight { get; set; }
 
         [Action ("DoSignIn:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -24,9 +40,29 @@ namespace ikeep2
 
         void ReleaseDesignerOutlets ()
         {
+            if (BlueLineHeight != null) {
+                BlueLineHeight.Dispose ();
+                BlueLineHeight = null;
+            }
+
+            if (platformTop != null) {
+                platformTop.Dispose ();
+                platformTop = null;
+            }
+
+            if (sign != null) {
+                sign.Dispose ();
+                sign = null;
+            }
+
             if (SignInButton != null) {
                 SignInButton.Dispose ();
                 SignInButton = null;
+            }
+
+            if (SignInHeight != null) {
+                SignInHeight.Dispose ();
+                SignInHeight = null;
             }
         }
     }
