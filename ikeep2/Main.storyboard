@@ -42,18 +42,18 @@
                                 <rect key="frame" x="0.0" y="377" width="375" height="2"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" id="205" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                    <view contentMode="scaleToFill" id="205" translatesAutoresizingMaskIntoConstraints="NO">
                                         <rect key="frame" x="20" y="342" width="320" height="2"/>
                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                         <constraints>
                                             <constraint id="206" firstAttribute="height" constant="2"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" id="224" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                    <view contentMode="scaleToFill" id="224" translatesAutoresizingMaskIntoConstraints="NO">
                                         <rect key="frame" x="20" y="417" width="375" height="2"/>
                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" id="225" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="225" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <constraints>
@@ -65,22 +65,22 @@
                                             <constraint id="227" firstItem="224" firstAttribute="height" constant="2"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" id="236" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                    <view contentMode="scaleToFill" id="236" translatesAutoresizingMaskIntoConstraints="NO">
                                         <rect key="frame" x="20" y="399" width="375" height="2"/>
                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" id="237" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="237" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <constraints>
                                                     <constraint id="238" firstAttribute="height" constant="2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" id="239" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="239" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="417" width="375" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" id="240" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                    <view contentMode="scaleToFill" id="240" translatesAutoresizingMaskIntoConstraints="NO">
                                                         <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                         <constraints>
@@ -97,22 +97,22 @@
                                             <constraint id="243" firstItem="236" firstAttribute="height" constant="2"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" id="244" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                    <view contentMode="scaleToFill" id="244" translatesAutoresizingMaskIntoConstraints="NO">
                                         <rect key="frame" x="20" y="399" width="375" height="2"/>
                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" id="245" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="245" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <constraints>
                                                     <constraint id="246" firstAttribute="height" constant="2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" id="247" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="247" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="417" width="375" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" id="248" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                    <view contentMode="scaleToFill" id="248" translatesAutoresizingMaskIntoConstraints="NO">
                                                         <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                         <constraints>
@@ -124,22 +124,22 @@
                                                     <constraint id="250" firstItem="247" firstAttribute="height" constant="2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" id="251" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <view contentMode="scaleToFill" id="251" translatesAutoresizingMaskIntoConstraints="NO">
                                                 <rect key="frame" x="20" y="399" width="375" height="2"/>
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" id="252" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                    <view contentMode="scaleToFill" id="252" translatesAutoresizingMaskIntoConstraints="NO">
                                                         <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                         <constraints>
                                                             <constraint id="253" firstAttribute="height" constant="2"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" id="254" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                    <view contentMode="scaleToFill" id="254" translatesAutoresizingMaskIntoConstraints="NO">
                                                         <rect key="frame" x="20" y="417" width="375" height="2"/>
                                                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" id="255" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                            <view contentMode="scaleToFill" id="255" translatesAutoresizingMaskIntoConstraints="NO">
                                                                 <rect key="frame" x="20" y="342" width="320" height="2"/>
                                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
                                                                 <constraints>
@@ -224,24 +224,31 @@
                                     <constraint id="323" firstItem="189" firstAttribute="height" constant="2"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" Style="{DynamicResource SignupHeaderLabel}" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="332" translatesAutoresizingMaskIntoConstraints="NO">
+                            <button opaque="NO" Style="{DynamicResource SignupHeaderLabel}" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="332" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES">
                                 <rect key="frame" x="0.0" y="267" width="375" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27" weight="semibold"/>
-                                <state key="normal" Style="{DynamicResource SignupHeaderLabel}" title="       Sign In">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.25098039215686274" blue="0.50196078431372548" alpha="1"/>
-                                </state>
                                 <constraints>
                                     <constraint id="337" firstItem="332" firstAttribute="height" constant="53"/>
                                 </constraints>
                                 <connections>
                                     <action selector="DoSignIn:" destination="BYZ-38-t0r" id="369" eventType="touchUpInside"/>
                                 </connections>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Sign In">
+                                            <attributes>
+                                                <color key="NSColor" colorSpace="calibratedRGB" red="0" green="0.24705882352941178" blue="0.49803921568627452" alpha="1"/>
+                                                <font key="NSFont" name="HelveticaNeue-Bold" family="Helvetica Neue" size="27"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="353" translatesAutoresizingMaskIntoConstraints="NO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="353" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="0.0" y="323" width="375" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27" weight="semibold"/>
-                                <state key="normal" title="       Sign Up">
+                                <state key="normal" title="Register">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.25098039215686274" blue="0.50196078431372548" alpha="1"/>
                                 </state>
